@@ -43,15 +43,12 @@
     </div>
 </div>
 <div class="footer text-muted">
-    {{$_SERVER['HTTP_HOST']}}  | 3.0</div>
+    {{$_SERVER['HTTP_HOST']}}, among others  | 3.0</div>
 </div>
     <script>
-
     $(document).ready(function () {
         window.doIndexPresent();
-
-    }
-	);
+    });
     </script>
 
 </body>

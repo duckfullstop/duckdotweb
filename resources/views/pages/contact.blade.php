@@ -63,42 +63,8 @@
         </div>
     </div>
     <div class="footer text-muted">
-        {{$_SERVER['HTTP_HOST']}}  | 3.0</div>
+        {{$_SERVER['HTTP_HOST']}}, among others  | 3.0</div>
     </div>
-    <script>
-
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
-
-    //  $('.logo').textfill({ maxFontPixels: 1000 });
-
-        $('.buttons #pflolink').mouseover(function () {
-
-            $('.box #box').fadeOut('fast', function() {
-                $(this).text('About Me').fadeIn('fast');
-            });
-
-        });
-
-        $('.buttons #bloglink').mouseover(function () {
-
-            $('.box #box').fadeOut('fast', function() {
-                $(this).text('Blog / Ramblings').fadeIn('fast');
-            });
-
-        });
-
-        $('.buttons #contactlink').mouseover(function () {
-
-            $('.box #box').fadeOut('fast', function() {
-                $(this).text('Contact').fadeIn('fast');
-            });
-
-        });
-
-    }
-	);
-    </script>
 
 </body>
 </html>

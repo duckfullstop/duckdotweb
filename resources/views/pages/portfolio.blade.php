@@ -38,7 +38,7 @@
                         <div class="col-sm-8">
                             <div class="scrollspy"  style="position: relative;overflow: auto">
                                 {{-- Flower --}}
-                                <h3 class="display-3" id="flower"><img style="height: 10vh; max-height: 100px" src="http://vulkan.test/assets/img/brand/logo/logo_animated.png" alt="Flower."></h3>
+                                <h3 class="display-3" id="flower"><img style="height: 10vh; max-height: 100px" src="/img/portfolio/flower_animated.png" alt="Flower."></h3>
                                 <h5>Project Lead / Sysop / Lead Developer</h5>
                                 <p class="lead"><i>The ultimate alternate arcade rhythm network. Since 2015.</i></p>
                                 <p><span class="fa fa-link"></span> <a href="https://projectflower.eu/about">projectflower.eu/about</a></p>
@@ -46,7 +46,7 @@
                                     We have grown from small roots with only one arcade, less than 20 players, and 3 co-founders, to having over 15 locations across Europe, over 650 players, and a worldwide development team of over 20 volunteers from a diverse set of backgrounds.
                                 </p>
                                 <hr>
-                                <h3 id="flower-kailua"><img style="height: 5vh; max-height: 75px" src="http://vulkan.test/assets/img/brand/logo/kailua/logo-flength-h150.png" alt="Kailua"></h3>
+                                <h3 id="flower-kailua"><img style="height: 5vh; max-height: 75px" src="/img/portfolio/kailua.png" alt="Kailua"></h3>
                                 <p>
                                     <i>Kailua</i> is the <b>definitive</b> arcade communication server and user management federation provider. Written in a Python 3 / Flask / SQLAlchemy (MariaDB) / Celery stack (with Bootstrap 4 for user-facing elements), it has been designed from the ground up to become the last word in its field for features, support, and stability.
                                 </p>
@@ -67,7 +67,7 @@
                                     <dd class="col-sm-9">~15MB</dd>
                                 </dl>
                                 <hr>
-                                <h3 id="flower-vulkan"><img style="height: 5vh; max-height: 75px" src="http://vulkan.test/assets/img/brand/logo/vulkan/logo-flength-h150.png" alt="Kailua"></h3>
+                                <h3 id="flower-vulkan"><img style="height: 5vh; max-height: 75px" src="/img/portfolio/vulkan.png" alt="Vulkan"></h3>
                                 <p>
                                     <i>Vulkan</i> is Flower's Web Interface. It's written in PHP with the Laravel 5 framework. It's designed to be a simple, responsive interface for end users, arcade operators, and network operators, with a heavy emphasis on speedy feature implementation.
                                 </p>
@@ -113,42 +113,8 @@
         </div>
     </div>
     <div class="footer text-muted">
-        {{$_SERVER['HTTP_HOST']}}  | 3.0</div>
+        {{$_SERVER['HTTP_HOST']}}, among others  | 3.0</div>
     </div>
-    <script>
-
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
-
-    //  $('.logo').textfill({ maxFontPixels: 1000 });
-
-        $('.buttons #pflolink').mouseover(function () {
-
-            $('.box #box').fadeOut('fast', function() {
-                $(this).text('About Me').fadeIn('fast');
-            });
-
-        });
-
-        $('.buttons #bloglink').mouseover(function () {
-
-            $('.box #box').fadeOut('fast', function() {
-                $(this).text('Blog / Ramblings').fadeIn('fast');
-            });
-
-        });
-
-        $('.buttons #contactlink').mouseover(function () {
-
-            $('.box #box').fadeOut('fast', function() {
-                $(this).text('Contact').fadeIn('fast');
-            });
-
-        });
-
-    }
-	);
-    </script>
 
 </body>
 </html>
