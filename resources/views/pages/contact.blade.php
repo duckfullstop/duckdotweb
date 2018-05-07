@@ -45,7 +45,7 @@
                                 <dt class="col-sm-3"><h3><span class="fa fa-twitter"></span> Twitter.</h3></dt>
                                 <dd class="col-sm-9"><p><a href="https://twitter.com/duckfullstop">@duckfullstop</a></p></dd>
                                 <dt class="col-sm-3"><h3><span class="fa fa-comment-o"></span> Discord.</h3></dt>
-                                <dd class="col-sm-9"><p>luaduck#0001</p></dd>
+                                <dd class="col-sm-9"><p>duck#0001</p></dd>
                                 <dt class="col-sm-3"><h3><span class="fa fa-skype"></span> Skype.</h3></dt>
                                 <dd class="col-sm-9">
                                     <p><a href="skype:leach139">leach139</a></p>

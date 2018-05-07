@@ -5,7 +5,7 @@
 
 {{-- <meta name="source-repo" content="https://github.com/luaduck/duckdotweb" /> --}}
 <meta name="for-alice" content="https://www.youtube.com/watch?v=ZTnlnrwBRPE" />
-<meta name="for-sarah" content="https://www.youtube.com/watch?v=_hTSiU53iDY" />
+<meta name="for-sarah" content="https://www.youtube.com/watch?v=70utG1L5bfU" />
 <meta name="for-me" content="https://www.youtube.com/watch?v=g4Qqu16ffVk" />
 <meta name="for-you" content="https://www.youtube.com/watch?v=AyR-AF9oJYQ" />
 {{-- <meta name="for-helvetica" content="https://www.youtube.com/watch?v=ZAXJbW0Fyw0" /> --}}

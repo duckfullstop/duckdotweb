@@ -18,9 +18,9 @@
                         <div id="link-pflio" class="fp-button">
                             <a href="//by.duck.me.uk" id="pflolink" data-toggle="tooltip" data-placement="top" title="Portfolio."><i class="fa fa-book"></i></a>
                         </div>
-                        <div id="link-blog" class="fp-button">
+                        {{-- <div id="link-blog" class="fp-button">
                             <a href="//blog.duck.me.uk/" id="bloglink" data-toggle="tooltip" data-placement="top" title="Blog."><i class="fa fa-rss"></i></a>
-                        </div>
+                        </div> --}}
                         <div id="link-blog" class="fp-button">
                             <a href="/contact" id="contactlink" data-toggle="tooltip" data-placement="top" title="Contact."><i class="fa fa-comments"></i></a>
                         </div>
