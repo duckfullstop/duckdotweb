@@ -11,7 +11,7 @@ ENV PATH="$PATH:/var/www/vendor/bin"
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
     gnupg \
-    && curl -sL https://deb.nodesource.com/setup_6.x | bash - \
+    && curl -sL https://deb.nodesource.com/setup_10.x | bash - \
     && apt-get install -y \
     nodejs \
     libfreetype6 libjpeg-dev libfreetype6-dev libpng-dev \
@@ -30,17 +30,13 @@ RUN NPROC=$(grep -c ^processor /proc/cpuinfo 2>/dev/null || 1) \
     && docker-php-ext-install -j${NPROC} \
     bcmath \
     gd \
-    mbstring \
     mysqli \
     pdo_mysql \
     opcache \
     pcntl \
     && docker-php-ext-configure gd \
-        --enable-gd-native-ttf \
-        --with-gd \
-        --with-freetype-dir=/usr/include/ \
-        --with-png-dir=/usr/include/ \
-        --with-jpeg-dir=/usr/include/ \
+        --with-freetype \
+        --with-jpeg \
     && ln -sf /dev/stdout /var/log/nginx/access.log \
     && ln -sf /dev/stderr /var/log/nginx/error.log \
     && chown -R www-data:www-data /var/lib/nginx \
