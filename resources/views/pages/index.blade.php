@@ -43,7 +43,7 @@
     </div>
 </div>
 <div class="footer text-muted">
-    {{$_SERVER['HTTP_HOST']}}, among others  | 3.0</div>
+    {{$_SERVER['HTTP_HOST']}}, among others | {{gethostname()}} | 3.0.1</div>
 </div>
     <script>
     $(document).ready(function () {
