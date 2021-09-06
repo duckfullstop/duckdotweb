@@ -11,7 +11,7 @@ ENV PATH="$PATH:/var/www/vendor/bin"
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
     gnupg \
-    && curl -sL https://deb.nodesource.com/setup_10.x | bash - \
+    && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y \
     nodejs \
     libfreetype6 libjpeg-dev libfreetype6-dev libpng-dev \
